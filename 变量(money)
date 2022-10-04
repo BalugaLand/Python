@@ -1,0 +1,6 @@
+money = 50
+print("钱包的余额为",money,"元")
+money = money - 10
+print("购买了10元的冰激凌后的余额为",money,"元")
+money = money - 5
+print("购买了5元的可乐后的余额为",money,"元")
