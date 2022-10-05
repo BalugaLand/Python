@@ -1,0 +1,17 @@
+num_str=str(11)
+print(type(num_str),num_str)
+
+float_str=str(11.11)
+print(type(float_str),float_str)
+
+num1 = int("11")
+print(type(num1),num1)
+
+num2 = float("11.11")
+print(type(num2),num2)
+
+float_num=float(111)
+print(type(float_num),float_num)
+
+int_num=int(11.111)
+print(type(int_num),int_num)
