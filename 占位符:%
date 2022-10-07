@@ -1,0 +1,6 @@
+# name =input('请输入你的名字:')
+# Class=input('请输入你的班级:')
+# year= 2022
+# grade= 750
+# Massage='我叫%s,%s班的学生,我于%d年入学,这次我考了%f分。' % (name,Class ,year,grade)
+# print(Massage)
