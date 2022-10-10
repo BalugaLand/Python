@@ -1,0 +1,7 @@
+print('{0:>20}'.format('Baluga')) # 20格内靠右>
+print('{0:<20}'.format('Baluga')) # 20格内靠左<
+print('{0:^20}'.format('Baluga')) # 20格内居中^
+
+print('{0:*>20}'.format('Baluga')) # 用*填充
+print('{0:-<20}'.format('Baluga')) # 用-填充
+print('{0:.^20}'.format('Baluga')) # 用.填充
