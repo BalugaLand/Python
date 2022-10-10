@@ -1,0 +1,5 @@
+m = eval(input('请输入一个数：'))
+if m > 0:
+    print('该数的绝对值为:',m)
+else:
+    print('该数的绝对值为:',-m)
