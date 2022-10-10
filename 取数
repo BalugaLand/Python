@@ -2,3 +2,6 @@ s ='Hello Python 0123456789abcdefghigklmnopqrstuvwxyz'
 print(len(s))   # len()为数有几个字（包括空格)
 print(s[22])    # 从0开始数
 print(s[13:23]) # 显示13到23的字  (左闭右开，就是取左不取右,所以22+1)
+print(s[22:12:-1])
+print(s[-36:-26])   #依旧是左闭右开
+print(s[13:23:2])   # 间隔取数（取偶数）
