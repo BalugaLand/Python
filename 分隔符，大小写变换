@@ -1,0 +1,4 @@
+s ='Hello Python 0123456789abcdefghigklmnopqrstuvwxyz'
+print(s.split())  #分隔符,也可以是print(s.split(' ',1))
+print(s.upper())  #将字符全部大写
+print(s.lower())  #将字符全部小写
