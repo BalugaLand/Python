@@ -1,0 +1,8 @@
+bool_1 = True
+bool_2 = False
+print(type(bool_1),type(bool_2))
+num_a = 10
+num_b = 10
+print(f'10 == 10的结果是:{num_a == num_b}\n')
+print('10 == 10的结果是:{}\n'.format(num_a == num_b))
+print('10 == 10的结果是:%s\n' % (num_a == num_b))
