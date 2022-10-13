@@ -1,0 +1,24 @@
+import random
+n = random.randint(1,10)
+if int(input("请在1~10之间猜一个整数:")) == n:
+    print("恭喜你猜对了是%d" % (n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
+elif int(input("猜的不对，继续猜一个数:")) == n:
+    print("恭喜你猜对了是{}".format(n))
