@@ -1,26 +1,24 @@
 import random
-n = random.randint(1,10)
-if int(input("请在1~10之间猜一个整数:")) == n:
-    print("恭喜你猜对了是%d" % (n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
-elif int(input("猜的不对，继续猜一个数:")) == n:
-    print("恭喜你猜对了是{}".format(n))
+num = random.randint(1,10)
+print("请在1~10随机猜一个数字。")
+guess_num = int(input("请猜一个数字："))
+if guess_num == num:
+    print("恭喜你第一次就对了。")
 else:
-    print("nnd这都猜不对。")
+    if guess_num > num:
+        print("大了。")
+    else:
+        print("小了。")
+    guess_num = int(input("请再猜一次:"))
+    if guess_num == num:
+        print("恭喜你，猜对了。")
+    else:
+        if guess_num > num:
+            print("大了。")
+        else:
+            print("小了。")
+    guess_num = int(input("再猜最后一次:"))
+    if guess_num == num:
+        print("恭喜你，猜对了。")
+    else:
+        print("一次都没猜对，太菜了。")
