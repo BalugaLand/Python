@@ -22,3 +22,5 @@ elif int(input("猜的不对，继续猜一个数:")) == n:
     print("恭喜你猜对了是{}".format(n))
 elif int(input("猜的不对，继续猜一个数:")) == n:
     print("恭喜你猜对了是{}".format(n))
+else:
+    print("nnd这都猜不对。")
