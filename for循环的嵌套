@@ -1,0 +1,10 @@
+i = 1
+for i in range(1,101):
+    print(f'今天是向小美表白的第{i}天,加油！')
+    j = 1
+    for j in range(1,11):
+        print(f"给小美送第{j}朵玫瑰")
+    print("小美,我喜欢你！")
+    print()
+    print("小美:\"我答应了\"")
+print("第100天表白成功。")
