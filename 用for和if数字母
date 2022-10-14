@@ -1,0 +1,6 @@
+name = "BalugaLand is my name"
+i = 0
+for x in name:
+    if x == "a":
+        i += 1
+print(f"{i}个字母a")
