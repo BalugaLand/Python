@@ -1,0 +1,11 @@
+name = 'HELLO123wORld'
+print(name)
+name = name.lower()
+flag = True
+while flag:
+    write = str(input("请写出上面的字符串(字母全部小写):"))
+    if write == name:
+        print("写对了。")
+        flag = False
+    else:
+        print("写错了，再写一次试试。")
