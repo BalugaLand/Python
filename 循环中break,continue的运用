@@ -1,0 +1,12 @@
+for x in range(10):
+    if x == 5:              # 整个循环终止
+        break
+    print(x, end=" ")
+print()
+
+
+
+for x in range(10):
+    if x == 5:              # 只是终止x == 5这次循坏
+        continue
+    print(x, end=" ")
