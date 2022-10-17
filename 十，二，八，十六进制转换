@@ -1,0 +1,5 @@
+round_number = int(input("请输入一个整数:"))
+print("十进制:",round_number)
+print("转换为二进制:",bin(round_number))
+print("转换为八进制:",oct(round_number))
+print("转换为十六进制:",hex(round_number))
