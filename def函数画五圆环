@@ -1,0 +1,13 @@
+import turtle as t                  # def函数的运用
+def yuanhuan(x,y,color):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+    t.pensize(8)
+    t.pencolor(color)
+    t.circle(50)
+yuanhuan(0,0,"red")
+yuanhuan(100,0,"blue")
+yuanhuan(200,0,"black")
+yuanhuan(50,-50,"purple")
+yuanhuan(150,-50,"yellow")
