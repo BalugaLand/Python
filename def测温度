@@ -1,0 +1,7 @@
+def check(num):
+    if num <= 36.5:
+        print("温度正常。")
+    else:
+        print("温度过高。")
+check(36.6)
+check(35.5)
