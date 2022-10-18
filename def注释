@@ -1,0 +1,12 @@
+def check_age(age):
+    """
+    :param age: 表示年龄
+    :return: 返回是否成年
+    """
+    if age >= 18:
+        return "SUCCESS"
+    else:
+        return None
+result = check_age(17)
+if not result:
+    print("未成年。")
