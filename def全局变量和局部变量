@@ -1,0 +1,10 @@
+num = 100
+def test_a():
+    print(num)
+def test_b():
+    global num     # global设置全局变量
+    num = 200
+    print(num)
+test_a()
+test_b()
+print(num)
