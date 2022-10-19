@@ -1,0 +1,8 @@
+def def_a():
+    print("1")
+def def_b():
+    print("2")
+    def_a()
+    def_a()
+    print("3")
+def_b()
