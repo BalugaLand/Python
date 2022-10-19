@@ -1,0 +1,32 @@
+money = 5000000
+name = str(input("请输入你的姓名:"))
+print(f"{name},您好,欢迎来到ATM机,请选择操作:")
+n = True
+while n == True:
+    print("""--------主菜单--------
+    查询余额:[输入1]
+    存款:   [输入2]
+    取款:   [输入3]
+    退出:   [输入4]""")
+    choose = int(input("请输入你的选择:"))
+    def chaxunyue():
+        print(f"{name},您好,你的余额剩余{money}元")
+    def cunkuan():
+        money_a = float(input("请输入要存多少钱:"))
+        global money
+        money += money_a
+        print(f"{name}您好,存款{money_a}元成功,您现在的余额为{money}元。")
+    def qukuan():
+        money_b = float(input("请输入要取多少钱:"))
+        global money
+        money -= money_b
+        print(f"{name}您好,取款{money_b}元成功,您现在的余额为{money}元。")
+    if choose == 1:
+        chaxunyue()
+    elif choose == 2:
+        cunkuan()
+    elif choose == 3:
+        qukuan()
+    else:
+        print("已退出。")
+        n = False
