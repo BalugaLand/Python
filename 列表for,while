@@ -1,0 +1,18 @@
+def while_xunhuan():
+    mylist = ["BalugaLand","MHydd","MHHarry"]
+    index = 0
+    while index < len(mylist):
+        element = mylist[index]
+        print(element)
+        index += 1
+while_xunhuan()
+
+
+
+
+
+def for_xunhuan():
+    mylist = [1,2,3,4,5]
+    for element in mylist:
+        print(element)
+for_xunhuan()
