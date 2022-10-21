@@ -1,0 +1,26 @@
+mylist = ["haha","hehe","heihei"]
+index = mylist.index("haha")
+print(index)
+mylist[2] = "hengheng"
+print(mylist)
+mylist.insert(1,"hoho") # insert插入
+print(mylist)
+mylist.append("huhu")   # append追加
+print(mylist)
+mylist.extend(["hihi","huihui","hunhun"]) # extend加容器
+print(mylist)
+del mylist[0]
+print(mylist)
+quchu = mylist.pop(0)
+print(mylist)
+print(quchu)
+mylist.remove("hehe")  # 移除第一个"hehe"
+print(mylist)
+mylist.clear()  #清除所有
+print(mylist)
+mylist = ["haha","haha","hehe","hehe"]
+count1 = mylist.count("haha")   # 数数量
+count2 = mylist.count("hehe")
+print(count1,count2)
+len = len(mylist)    # 数总数
+print(len)
