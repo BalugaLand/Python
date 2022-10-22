@@ -1,0 +1,25 @@
+name = "BalugaLand,my name!"
+print(name[0:6],name[6:10])
+name = name.title()  # 每个开头字母大写
+print(name)
+print(name.istitle())
+print(name.islower())
+if name.title():
+    print("yes")
+name = "BalugaLand"
+print(name.isalpha()) # 检测字符串是否只由字母组成。
+print(name.capitalize()) # 将第一个字母变成大写,其他变小写
+print(name.ljust(30,'*')) # 左对齐，其余空间用*填充
+print(name.rjust(30,'*')) # 右对齐，其余空间用*填充
+print(name.rjust(30,'鸡'))
+print(name.center(40,"*")) # 居中,其余*填充
+print(name.find("L"))
+print(name.index("L"))
+print(name.endswith("Land"))  # 检测字符串末尾是否为"Land"
+print(name.startswith("Ba")) # 检测字符串开头是否为"Ba"
+print(name.replace("Land","MHHarry")) # 将"Land"转换成"MHHarry
+t2 = ("MHHarry","BalugaLand","heiyi4","MHydd","BalugaLand","BalugaLand")
+num = t2.count("BalugaLand") # 有几个"BalugaLand"
+num_2 = len(t2) # 查元素数量
+print(num)
+print(num_2)
