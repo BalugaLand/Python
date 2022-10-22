@@ -1,0 +1,18 @@
+sex = input("请输入您的性别:")
+height = eval(input("请输入您的身高(cm):"))
+weight = eval(input("请输入您的体重(kg):"))
+if sex == "男":
+    n = (height-80)*0.7
+elif sex == "女":
+    n = (height-70)*0.6
+chao = (weight-n)/n
+if -0.1<= chao <=0.1:
+    print("体重正常")
+elif -0.2<=chao<-0.1:
+    print("体重过轻")
+elif 0.1<chao<=0.2:
+    print("体重过重")
+elif chao<-0.2:
+    print("体重不足")
+elif chao>0.2:
+    print("肥胖")
