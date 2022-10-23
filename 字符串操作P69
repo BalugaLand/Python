@@ -1,0 +1,20 @@
+str_ = "BalugaLand is my name"
+s1 = str_[6:10]
+print(s1)   # 取出下标6~10
+s2 = str_.index("is")
+print(s2)   # index查找首字母的位置
+s3 = str_.split(" ")
+print(s3)   # split按给定字符串分离字符串
+s4 = str_.replace("name","dad")
+print(s4)   # replace按给定字符串替换指定字符串
+str_1 = "   BalugaLand is my name    "
+s5 = str_1.strip()
+print(str_1)
+print(s5)   # strip()移除首尾空格
+str_2 = "121BalugaLand is not my name121"
+s6 = str_2.strip("12")
+print(s6)   # strip("给定内容")移除指定字符串
+s7 = str_2.count("121")
+print(s7)   # count统计出现次数
+s8 = len(str_)
+print(s8)   # len统计字符个数
