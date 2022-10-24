@@ -1,0 +1,10 @@
+def sanjiao(str1):
+    str2 = 2 * str1
+    b = " "
+    n = 5
+    for i in range(6):
+        print((n-i)*b,str1)
+        str1 += str2
+sanjiao("@")
+sanjiao("#")
+sanjiao("*")
