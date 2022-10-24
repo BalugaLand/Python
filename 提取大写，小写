@@ -1,0 +1,20 @@
+s = input("请输入一段字符:")
+def words(words):        # 提取大写字符
+    for i in words:
+        if i.isupper():
+            print(i,end="")
+words(s)
+
+
+
+
+
+
+
+
+s = input("请输入一段字符:")
+def words_2(words):        # 提取小写字符
+    for i in words:
+        if i.islower():
+            print(i,end="")
+words_2(s)
