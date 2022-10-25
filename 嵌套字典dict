@@ -1,0 +1,19 @@
+fenshu = {"Baluga":{
+    "语文":100,
+     "数学":99,
+     "英语":99},
+          "MHHarry":{
+    "语文":99,
+    "数学":100,
+    "英语":99},
+          "MHydd":{
+    "语文":98,
+    "数学":97,
+    "英语":100}
+}
+B = (fenshu["Baluga"])
+Y = (fenshu["MHHarry"])
+D = (fenshu["MHydd"])
+print("Baluga的分数:",B)
+print("MHHarry的分数:",Y)
+print("MHydd的分数:",D)
