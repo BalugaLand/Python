@@ -1,0 +1,16 @@
+mylist = [3,2,4,5,1]
+mytuple = (3,2,4,5,1)
+mystr = "cdeabf"
+myset = {3,2,4,5,1}
+mydict = {"k1":1,"k2":2,"k3":5,"k4":4,"k5":3}
+print(sorted(mylist))   # 正序
+print(sorted(mytuple))
+print(sorted(mystr))
+print(sorted(myset))
+print(sorted(mydict))
+print()
+print(sorted(mylist,reverse=True))  # 倒序
+print(sorted(mytuple,reverse=True))
+print(sorted(mystr,reverse=True))
+print(sorted(myset,reverse=True))
+print(sorted(mydict,reverse=True))
