@@ -1,0 +1,25 @@
+import random
+code_list = []
+xing = input("请输入您姓的首字母:")
+xing = xing.upper()
+xuehao = input("请输入您的学号:")
+code_list.append(xing)
+code_list.append(xuehao[8:11])
+fuhao =["~","#","$","%","&"]
+for i in range(6):
+    state = random.randint(1,4)
+    if state == 1:
+        k1 = chr(random.randint(65,90))
+        code_list.append(k1)
+    elif state == 2:
+        k2 = chr(random.randint(97,122))
+        code_list.append(k2)
+    elif state == 3:
+        k3 = str(random.randint(0,9))
+        code_list.append(k3)
+    elif state == 4:
+        n = random.randint(0,4)
+        k4 = fuhao[n]
+        code_list.append(k4)
+code_list = "".join(code_list)
+print("您的验证码是:",code_list)
